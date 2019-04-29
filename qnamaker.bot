@@ -1,0 +1,25 @@
+{
+    "name": "qnamaker",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "25"
+        },
+      {
+        "type": "qna",
+        "name": "QnABot",
+        "kbId": "6984430c-b8aa-449d-8086-67311aa95fd1",
+        "subscriptionKey": "",
+        "endpointKey": "2e0b991c-5d7e-4370-ac74-06c37397abef",
+        "hostname": "https://saggezzabot.azurewebsites.net/qnamaker",
+        "id": "117"
+      }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
